@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+    --color-wedding-bg: #f5f1eb;
+    --color-wedding-accent: #8c8c6c;
+    --color-wedding-text: #3a3a3a;
+    --color-olive: #535853;
+    --color-olive-light: rgb(83 88 83 / 60%);
+}
+
+:root {
+    --font-mea-culpa: "Segoe Print", "Bradley Hand", cursive;
+    --font-raleway: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+body {
+    font-family: var(--font-mea-culpa), cursive;
+    background: var(--color-olive-light);
+    color: var(--color-wedding-text);
+    overflow-x: hidden;
+}
